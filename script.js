@@ -44,7 +44,7 @@ function drawParticles() {
     ctx.fillStyle = gradient;
     ctx.globalAlpha = p.opacity;
     ctx.font = `${p.size}px Arial`;
-    ctx.fillText("LOVE U", p.x, p.y);
+    ctx.fillText("HUG DIYA", p.x, p.y);
     ctx.globalAlpha = 1;
   });
 
@@ -66,7 +66,7 @@ document.addEventListener('touchstart', e => {
 function createRain() {
   const rain = document.createElement('div');
   rain.classList.add('rain');
-  rain.innerText = 'LOVE U';
+  rain.innerText = 'HUG DIYA';
   rain.style.left = Math.random() * window.innerWidth + 'px';
   rain.style.animationDuration = (2 + Math.random() * 3) + 's';
   rain.style.fontSize = (16 + Math.random() * 8) + 'px';
@@ -89,3 +89,4 @@ loveText.addEventListener('touchstart', () => {
     message.style.opacity = 0;
   }, 3000);
 });
+
