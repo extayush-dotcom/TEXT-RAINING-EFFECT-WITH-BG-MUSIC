@@ -66,7 +66,7 @@ document.addEventListener('touchstart', e => {
 function createRain() {
   const rain = document.createElement('div');
   rain.classList.add('rain');
-  rain.innerText = 'HUG DIYA';
+  rain.innerText = 'HAPPY BDAY POTA';
   rain.style.left = Math.random() * window.innerWidth + 'px';
   rain.style.animationDuration = (2 + Math.random() * 3) + 's';
   rain.style.fontSize = (16 + Math.random() * 8) + 'px';
@@ -89,4 +89,5 @@ loveText.addEventListener('touchstart', () => {
     message.style.opacity = 0;
   }, 3000);
 });
+
 
